@@ -41,7 +41,7 @@ int main()
     //Displaying the output
     cout << endl << "Displaying after deleting all items" << endl;
     deleteAll(root);
-    temp = root;
+    delete temp;
 
     return 1;
 }
